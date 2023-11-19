@@ -37,7 +37,7 @@ Default_Settings() {
     export OF_ADVANCED_SECURITY=1
     export OF_STATUS_INDENT_LEFT=64
     export OF_STATUS_INDENT_RIGHT=64
-    export OF_SKIP_FBE_DECRYPTION=1
+    export OF_SKIP_FBE_DECRYPTION=0
     export FOX_REPLACE_TOOLBOX_GETPROP=1
     export FOX_USE_TAR_BINARY=1
     export FOX_USE_SED_BINARY=1
