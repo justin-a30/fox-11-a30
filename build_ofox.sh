@@ -57,7 +57,7 @@ Default_Settings() {
 do_build() {
   Default_Settings
 
-  . build/envsetup.sh
+  ./build/envsetup.sh
   lunch twrp_a30-eng
   m recoveryimage
 }
