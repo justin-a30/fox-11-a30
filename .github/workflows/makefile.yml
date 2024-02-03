@@ -1,0 +1,16 @@
+name: Makefile CI
+
+on:
+  push:
+    branches: [ "fox-11" ]
+  pull_request:
+    branches: [ "fox-11" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: configure
+      run: ./build_ofox.sh
